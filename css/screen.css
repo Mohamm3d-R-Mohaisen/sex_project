@@ -1,0 +1,143 @@
+@media screen and (max-width: 1700px) {
+	.text_about p {
+		width: 100%;
+	}
+}
+@media screen and (max-width:  1291px) {
+	.text_about p {
+		font-size: 19px;
+	}
+	.text_about h2 {
+		font-size: 28px;
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width:  1200px) {
+	.me-image {
+		text-align: right;
+	}
+}
+@media screen and (max-width:  1137px) {
+	.text_about p {
+		font-size: 17px;
+	}
+	.text_about h2 {
+		font-size: 25px;
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width:  1087px) {
+	.about-grid {
+		grid-template-columns: 1fr;
+	}
+	.text_about {
+		text-align: center;
+	}
+	.text_about p {
+		width: 50%;
+    	margin: 0 auto;
+	}
+	.service-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.servicesContaienr {
+		margin-top: 65px;
+	}
+	.service {
+		padding-right: 100px;
+    	padding-left: 100px;
+	}
+	.companies-grid {
+		display: grid;
+		justify-items: center;
+		grid-template-areas: "logo1 logo1 logo1 logo1 logo2 logo2 logo2 logo2 logo3 logo3 logo3 logo3" "logo4 logo4 logo4 logo4 logo4 logo4 logo5 logo5 logo5 logo5 logo5 logo5";
+	}
+	.compnay-img {
+		    margin: 25px;
+	}
+
+}
+@media screen and (max-width:  992px) {
+	._h2 {
+		font-size: 60px;
+	}
+	._2_p {
+		font-size: 30px;
+	}
+	.me-about {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+	.me-image {
+		text-align: center;
+	}
+	.menu ul {
+		display: none;
+	}
+	.menu_image {
+		display: block;
+	}
+}
+@media screen and (max-width:  931px) {
+	.text_about p {
+		width: 67%;
+	}
+	.about-row img {
+		width: 100%;
+	}
+}
+@media screen and (max-width:  860px) {
+	.service-grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.companies-grid {
+		display: grid;
+		justify-items: center;
+		grid-template-areas: "logo1 logo2" "logo3 logo4" "logo5 logo5";
+/*		grid-template-areas: "logo1 logo1 logo1 logo1 logo1 logo1 logo2 logo2 logo2 logo2 logo2 logo2" "logo3 logo3 logo3 logo3 logo3 logo3 logo4 logo4 logo4 logo4 logo4 logo4" "logo5 logo5 logo5 logo5 logo5 logo5 logo5 logo5 logo5 logo5 logo5 logo5";
+*/	}
+}
+@media screen and (max-width:  720px) {
+	.text_about p {
+		width: 90%;
+	}
+}
+@media screen and (max-width:  520px) {
+	/*.companies-grid {
+		display: block;
+	}*/
+	.companies-grid {
+		display: grid;
+		justify-items: center;
+		grid-template-areas: "logo1" "logo2" "logo3" "logo4" "logo5";
+	}
+	._h2 {
+		font-size: 40px;
+	}
+	._2_p {
+		font-size: 22px;
+	}
+	.me-image img {
+		width: 100%;
+	}
+	.me-image {
+		text-align: center;
+    	padding: 0 34px;
+	}
+	.logo img {
+		height: 40px;
+	}
+	#Me {
+		margin-top: 71px;
+	}
+	.service {
+		padding-right: 15px;
+    	padding-left: 15px;
+	}
+	.service-head p {
+		font-size: 19px;
+    	padding-top: 16px;
+	}
+}
